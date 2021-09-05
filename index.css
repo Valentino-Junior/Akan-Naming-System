@@ -1,5 +1,6 @@
 body{
-  
+  margin: 0px;
+  padding: 0px;
 
 }
 .item{
@@ -19,6 +20,7 @@ body{
     background-size: cover;
     background-position: center;
     
+    
 }
 .year, .month, .date{
     margin-bottom: 24px;
@@ -26,4 +28,18 @@ body{
 .button{
     margin-top: 22px;
     
+}
+h1{
+    background-color: mediumturquoise;
+    padding: 8px;
+    text-align: center;
+}
+p{
+    display: flex;
+    width: 250px;
+    align-items: center;
+    border: 1px solid grey;
+    margin-left: 22px;
+    position: absolute;
+
 }
