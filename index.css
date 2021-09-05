@@ -1,9 +1,18 @@
 body{
+  
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 400px;
+    margin-left: 500px;
+
     background-image: url(https://cdn.cdnparenting.com/articles/2020/11/14164658/319171217-696x476.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
-    
-
 }
