@@ -1,7 +1,8 @@
 body{
   margin: 0px;
   padding: 0px;
-
+  background-color: darkgoldenrod;
+  font-family: 'Times New Roman', Times, serif;
 }
 .item{
     position: relative;
@@ -31,9 +32,10 @@ body{
     
 }
 h1{
-    background-color: mediumturquoise;
+    background-color: rgb(63, 95, 63);
     padding: 8px;
     text-align: center;
+    margin-top: 0px;
 }
 p{
     display: flex;
@@ -42,6 +44,9 @@ p{
     border: 1px solid grey;
     margin-left: 22px;
     position: absolute;
+    color: wheat;
+    font-size: 18px;
+    background-color: black;
 
 }
 img{
@@ -49,4 +54,7 @@ img{
     height: 420px;
     width: 360px;
     margin-top: 180px;
+}
+.general{
+   
 }
