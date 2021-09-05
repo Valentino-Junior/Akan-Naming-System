@@ -4,6 +4,7 @@ body{
 
 }
 .item{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,10 +37,16 @@ h1{
 }
 p{
     display: flex;
-    width: 250px;
+    width: 320px;
     align-items: center;
     border: 1px solid grey;
     margin-left: 22px;
     position: absolute;
 
+}
+img{
+    position: absolute;
+    height: 420px;
+    width: 360px;
+    margin-top: 180px;
 }
