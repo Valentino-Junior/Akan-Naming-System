@@ -52,8 +52,22 @@ p{
     margin-top: 0px;
 
 }
-img{
+a{
     position: absolute;
+    width: 140px;
+    margin-top: 126px;
+    margin-left: 186px;
+    color: maroon;
+    text-decoration: none;
+    background-attachment: fixed;
+   
+}
+p a:hover{
+text-decoration: underline;
+color: goldenrod;
+}
+img{
+    position: fixed;
     height: 420px;
     width: 360px;
     margin-top: 180px;
