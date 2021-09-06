@@ -79,3 +79,11 @@ img{
     margin-top: 0px;
     align-items: center;
 }
+.outcome{
+    
+    margin-left: 540px;
+    font-size: 32px;
+    padding-bottom: -300px;
+    color: maroon;
+    font-weight: bold;
+}
