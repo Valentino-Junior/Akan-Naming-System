@@ -17,9 +17,15 @@ $(document).ready(function() {
         var m = parseInt($(".month").val());
         var d = parseInt($(".date").val());
         var g = $("select").val();
+        if (m<= 0 || m >12) {
+            alert("Invalid Month")
+        } 
+        if (d<= 0 || d >31) {
+            alert("Invalid Date")
+        } 
         var result = akanName(y, m, d, g);
-        //$("span").html("Your akan name is: " + result)
-        alert("Your akan name is: " + result);
+        $("span").html("Your akan name is: " + result)
+        //alert("Your akan name is: " + result);
         //refresh page
         
     });
