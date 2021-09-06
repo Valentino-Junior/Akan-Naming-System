@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-color: darkgoldenrod;
+  
   font-family: 'Times New Roman', Times, serif;
 }
 .item{
@@ -15,6 +15,7 @@ body{
     font-weight: bold;
     font-size: xx-large;
     color:maroon;
+    margin-top: 60px;
     
 
     background-image: url(https://cdn.cdnparenting.com/articles/2020/11/14164658/319171217-696x476.webp);
@@ -36,10 +37,11 @@ h1{
     padding: 8px;
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 p{
     display: flex;
-    width: 320px;
+    width: 330px;
     align-items: center;
     border: 1px solid grey;
     margin-left: 22px;
@@ -47,6 +49,7 @@ p{
     color: wheat;
     font-size: 18px;
     background-color: black;
+    margin-top: 0px;
 
 }
 img{
@@ -55,6 +58,10 @@ img{
     width: 360px;
     margin-top: 180px;
 }
-.general{
-   
+.header{
+    display: flex;
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 0px;
+    align-items: center;
 }
