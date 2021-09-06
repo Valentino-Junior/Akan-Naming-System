@@ -1,10 +1,10 @@
 # Akan-Naming-System
-## 05/09/2021
+05/09/2021
 # By 
 {Valentino Junior}
 # Description
 {Akan names are rooted from Ghanian culture, in which people are given their first names based on their gender and the day of the week they were born. Your birthday info will be used to compute the day of the week you were born on and produce your male/female Akan name.}
-# Behavior Driven Development
+# Behavior Driven Development (BDD)
 1. Based on their birthdate and gender, the user is supposed to discover their Akan Name.
 
 2. In the form, the user enters their gender and birthday.
