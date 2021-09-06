@@ -11,20 +11,25 @@ var akanName = function(y, m, d, g) {
 }
 
 $(document).ready(function() {
-    $(".button").click(function(event) {
+    $("form").submit(function(event) {
         event.preventDefault();
         var y = parseInt($(".year").val());
         var m = parseInt($(".month").val());
         var d = parseInt($(".date").val());
         var g = $("select").val();
-        if (m<= 0 || m >12) {
-            alert("Invalid Month")
-        } 
-        if (d<= 0 || d >31) {
-            alert("Invalid Date")
-        } 
+
+        //you can use this formula or min and max in the html to determine the validity of the value inputted by sending an alert
+        //if (m<= 0 || m >12) {
+        //    alert("Invalid Month")
+        //} 
+        //if (d<= 0 || d >31) {
+        //    alert("Invalid Date")
+        //} 
+        
         var result = akanName(y, m, d, g);
         $("span").html("Your akan name is: " + result)
+        
+        //you can use this formula to display result inform of an alert
         //alert("Your akan name is: " + result);
         //refresh page
         
